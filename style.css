@@ -1,0 +1,191 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f4f6;
+    color: #1f2937;
+}
+
+.perfil {
+    width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.perfil-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 30px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border: 4px solid #2563eb;
+}
+
+.foto-perfil-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.foto-perfil-legenda {
+    display: none; 
+}
+
+.perfil-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 5px;
+}
+
+.perfil-subtitle {
+    font-size: 16px;
+    color: #2563eb;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.perfil-descricao {
+    font-size: 15px;
+    line-height: 1.6;
+    width: 600px;
+    color: #4b5563;
+}
+
+.habilidades {
+    margin-top: 30px;
+    text-align: center;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 30px;
+}
+
+.habilidades-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.habilidades-lista {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.habilidade-item {
+    background-color: #eff6ff;
+    border: 1px solid #bfdbfe;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.habilidade-nome {
+    font-weight: bold;
+    color: #1d4ed8;
+}
+
+.habilidade-nivel {
+    font-style: italic;
+    color: #374151;
+}
+
+.projetos {
+    margin-top: 30px;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 30px;
+}
+
+.projetos-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projetos-atividades {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartao-de-visita {
+    width: 345px; 
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cartao-de-visita-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.cartao-de-visita-descricao {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #4b5563;
+    margin-bottom: 15px;
+}
+
+.tecnologias-utilizadas {
+    font-size: 13px;
+    color: #2563eb;
+}
+
+.perfil-footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.perfil-footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.perfil-footer-lista {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.perfil-footer-link {
+    display: inline-block;
+    background-color: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.perfil-footer-link:hover {
+    background-color: #1d4ed8;
+}
+
+.perfil-footer-texto {
+    font-size: 13px;
+    color: #6b7280;
+}
